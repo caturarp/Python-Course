@@ -59,3 +59,20 @@ while(data!='exit'):
             # without pass will be error, because data is empty
         else:
             print('error: {}'.format(sys.exc_info()[0]))
+
+# List Comprehension
+# recycle the list for other purpose
+
+#new_list = [expression for_loop_one_or_more conditions]
+
+#Cara 1
+angka = [1, 2, 3, 4]
+pangkat = []
+for n in angka:
+  pangkat.append(n**2)
+print(pangkat)
+
+#Cara 2 List Comprehension
+angka = [1, 2, 3, 4]
+pangkat = [n**2 for n in angka]
+print(pangkat)
