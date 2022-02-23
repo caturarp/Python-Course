@@ -8,3 +8,4 @@ print(hello.nama)
 #review
 keles = hello.Reviewer("kelas", "Python")
 keles.review()
+
