@@ -1,1 +1,1 @@
-# Python-Dicoding-Course
+# Python-Course
